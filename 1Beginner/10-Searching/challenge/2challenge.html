@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Search Linear Challenge</title>
+    <style>
+      table {
+        border-collapse: collapse;
+        margin-top: 10px;
+      }
+      th,
+      td {
+        border: 1px solid black;
+        padding: 8px;
+        text-align: left;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Data Siswa</h2>
+
+    <input id="inputId" placeholder="Masukan ID" />
+    <input id="inputName" placeholder="Masukan Nama" />
+    <input id="inputUmur" placeholder="Masukan Umur" />
+    <button onclick="cariSiswa()">Cari</button>
+    <div id="hasil"></div>
+
+    <!-- TABEL UTAMA -->
+    <table id="tableAll">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Nama</th>
+          <th>Umur</th>
+        </tr>
+      </thead>
+      <tbody id="tableBody"></tbody>
+    </table>
+
+    <!-- TABEL HASIL PENCARIAN -->
+    <table id="tableResult" style="display: none">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Nama</th>
+          <th>Umur</th>
+        </tr>
+      </thead>
+      <tbody id="tableSearchBody"></tbody>
+    </table>
+
+    <script>
+      const dataSiswa = [
+        { id: 1, nama: "Budi", umur: 18 },
+        { id: 2, nama: "Rangga", umur: 20 },
+        { id: 3, nama: "Fernando", umur: 30 },
+        { id: 4, nama: "Erlangga", umur: 25 },
+      ];
+
+      // PR PROMPT: jadi bila ada 3 search. untuk function linear nya saya buat 3 juga atau buat 3 kondisi di dalam 1 function?
+    </script>
+  </body>
+</html>
