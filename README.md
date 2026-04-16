@@ -34,7 +34,3 @@ Ganti path file sesuai materi yang ingin kamu pelajari.
 
 - Beginner guide: `1Beginner/README.md`
 - Advance guide: `2Advance/README.md`
-
-## Kontribusi
-
-Jika ingin menambah materi atau memperbaiki contoh, lihat panduan di `CONTRIBUTING.md`.
